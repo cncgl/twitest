@@ -6,10 +6,10 @@ Estimate twitter engagement by Machine Learning.
 
 ## Setup
 Create Indico account at [https://indico.io/](https://indico.io/).
-API Key set enviroment variable ``INDICO_API_KEY``
+API Key set enviroment variable ``INDICO_API_KEY``.
 
 Create Microsoft Translator account [https://datamarket.azure.com/dataset/1899a118-d202-492c-aa16-ba21c33c06cb](https://datamarket.azure.com/dataset/1899a118-d202-492c-aa16-ba21c33c06cb).
-Client ID and Client Secret set environment variable ``CLIENT_ID`` and ``CLIENT_SECRET``
+Client ID and Client Secret set environment variable ``CLIENT_ID`` and ``CLIENT_SECRET``.
 
 ## Installation
 
@@ -37,4 +37,5 @@ It's OK even if SENTENSE in Japanese.
 Bug reports and pull requests are welcome on GitHub at https://github.com/cncgl/twitest.
 
 ## License
-MIT
+
+[MIT](LICENSE)
