@@ -1,6 +1,15 @@
 # Twitest
 
-機械学習による twitter のエンゲージト率を測定する
+[![Dependency Status](https://gemnasium.com/badges/github.com/cncgl/twitest.svg)](https://gemnasium.com/github.com/cncgl/twitest)
+
+Estimate twitter engagement by Machine Learning.
+
+## Setup
+Create Indico account at [https://indico.io/](https://indico.io/).
+API Key set enviroment variable ``INDICO_API_KEY``
+
+Create Microsoft Translator account [https://datamarket.azure.com/dataset/1899a118-d202-492c-aa16-ba21c33c06cb](https://datamarket.azure.com/dataset/1899a118-d202-492c-aa16-ba21c33c06cb).
+Client ID and Client Secret set environment variable ``CLIENT_ID`` and ``CLIENT_SECRET``
 
 ## Installation
 
@@ -19,16 +28,13 @@ Or install it yourself as:
     $ gem install twitest
 
 ## Usage
-```
-$ twitest <SENTENSE>
-```
+It's OK even if SENTENSE in Japanese. 
 
-## Development
-
-After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+    $ twitest <SENTENSE>
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/twitest.
+Bug reports and pull requests are welcome on GitHub at https://github.com/cncgl/twitest.
+
+## License
+MIT
