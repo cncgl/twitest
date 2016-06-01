@@ -1,6 +1,7 @@
 # Twitest
 
 [![Dependency Status](https://gemnasium.com/badges/github.com/cncgl/twitest.svg)](https://gemnasium.com/github.com/cncgl/twitest)
+[![Gem Version](https://badge.fury.io/rb/twitest.svg)](https://badge.fury.io/rb/twitest)
 
 Estimate twitter engagement by Machine Learning.
 
